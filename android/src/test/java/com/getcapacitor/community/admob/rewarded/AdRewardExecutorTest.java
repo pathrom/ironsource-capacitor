@@ -1,4 +1,4 @@
-package com.getcapacitor.community.admob.rewarded;
+package com.getcapacitor.community.ironsource.rewarded;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;

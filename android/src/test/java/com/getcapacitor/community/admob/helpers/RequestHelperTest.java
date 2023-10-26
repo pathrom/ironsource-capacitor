@@ -1,10 +1,10 @@
-package com.getcapacitor.community.admob.helpers;
+package com.getcapacitor.community.ironsource.helpers;
 
 import static org.mockito.Mockito.verify;
 
 import android.os.Bundle;
-import com.getcapacitor.community.admob.models.AdOptions;
-import com.google.ads.mediation.admob.AdMobAdapter;
+import com.getcapacitor.community.ironsource.models.AdOptions;
+import com.google.ads.mediation.ironsource.AdMobAdapter;
 import com.google.android.gms.ads.AdRequest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

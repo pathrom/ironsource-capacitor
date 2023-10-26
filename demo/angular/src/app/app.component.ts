@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 import { Platform } from '@ionic/angular';
 
-import { AdMob, AdMobInitializationOptions } from '@capacitor-community/admob';
+import { AdMob, AdMobInitializationOptions } from '@capacitor-community/ironsource';
 
 @Component({
   selector: 'app-root',

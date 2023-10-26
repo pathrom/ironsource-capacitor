@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AdMob, InterstitialAdPluginEvents } from '@capacitor-community/admob';
+import { AdMob, InterstitialAdPluginEvents } from '@capacitor-community/ironsource';
 import { ITestItems } from '../../shared/interfaces';
 import { PluginListenerHandle } from '@capacitor/core';
 import { ViewDidEnter, ViewWillEnter, ViewWillLeave } from '@ionic/angular';

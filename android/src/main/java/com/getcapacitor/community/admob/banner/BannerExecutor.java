@@ -1,4 +1,4 @@
-package com.getcapacitor.community.admob.banner;
+package com.getcapacitor.community.ironsource.banner;
 
 import android.app.Activity;
 import android.content.Context;
@@ -14,11 +14,11 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.core.util.Supplier;
 import com.getcapacitor.JSObject;
 import com.getcapacitor.PluginCall;
-import com.getcapacitor.community.admob.helpers.AdViewIdHelper;
-import com.getcapacitor.community.admob.helpers.RequestHelper;
-import com.getcapacitor.community.admob.models.AdMobPluginError;
-import com.getcapacitor.community.admob.models.AdOptions;
-import com.getcapacitor.community.admob.models.Executor;
+import com.getcapacitor.community.ironsource.helpers.AdViewIdHelper;
+import com.getcapacitor.community.ironsource.helpers.RequestHelper;
+import com.getcapacitor.community.ironsource.models.AdMobPluginError;
+import com.getcapacitor.community.ironsource.models.AdOptions;
+import com.getcapacitor.community.ironsource.models.Executor;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
@@ -222,7 +222,7 @@ public class BannerExecutor extends Executor {
 
     /**
      * Follow iOS method Name:
-     * https://developers.google.com/admob/ios/banner?hl=ja
+     * https://developers.google.com/ironsource/ios/banner?hl=ja
      */
     private void createNewAdView(AdOptions adOptions) {
         // Run AdMob In Main UI Thread

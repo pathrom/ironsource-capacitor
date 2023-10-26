@@ -1,4 +1,4 @@
-package com.getcapacitor.community.admob.interstitial;
+package com.getcapacitor.community.ironsource.interstitial;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -17,9 +17,9 @@ import android.app.Activity;
 import android.content.Context;
 import com.getcapacitor.JSObject;
 import com.getcapacitor.PluginCall;
-import com.getcapacitor.community.admob.helpers.AdViewIdHelper;
-import com.getcapacitor.community.admob.helpers.RequestHelper;
-import com.getcapacitor.community.admob.models.AdOptions;
+import com.getcapacitor.community.ironsource.helpers.AdViewIdHelper;
+import com.getcapacitor.community.ironsource.helpers.RequestHelper;
+import com.getcapacitor.community.ironsource.models.AdOptions;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;

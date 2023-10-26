@@ -1,9 +1,9 @@
-package com.getcapacitor.community.admob.banner
+package com.getcapacitor.community.ironsource.banner
 
 import com.google.android.gms.ads.AdSize
 
 /**
- * https://developers.google.com/admob/android/banner#banner_sizes
+ * https://developers.google.com/ironsource/android/banner#banner_sizes
  */
 enum class BannerAdSizeEnum(val size: AdSize) {
     BANNER(AdSize.BANNER),

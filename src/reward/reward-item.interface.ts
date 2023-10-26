@@ -1,6 +1,6 @@
 /**
  * For more information
- * https://developers.google.com/admob/android/rewarded-video-adapters?hl=en
+ * https://developers.google.com/ironsource/android/rewarded-video-adapters?hl=en
  */
  export interface AdMobRewardItem {
   /**

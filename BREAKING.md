@@ -43,14 +43,14 @@ __app.component.ts__
 __admob.component.ts__
 ```ts
     import { Plugins } from '@capacitor/core';
-    import { AdOptions, AdSize, AdPosition } from '@rdlabo/capacitor-admob';
+    import { AdOptions, AdSize, AdPosition } from '@rdlabo/capacitor-ironsource';
     
     const { AdMob } = Plugins;
     
     @Component({
-      selector: 'admob',
-      templateUrl: 'admob.component.html',
-      styleUrls: ['admob.component.scss']
+      selector: 'ironsource',
+      templateUrl: 'ironsource.component.html',
+      styleUrls: ['ironsource.component.scss']
     })
     export class AdMobComponent {
     

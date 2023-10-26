@@ -1,15 +1,15 @@
-package com.getcapacitor.community.admob.interstitial;
+package com.getcapacitor.community.ironsource.interstitial;
 
 import android.app.Activity;
 import android.content.Context;
 import androidx.core.util.Supplier;
 import com.getcapacitor.JSObject;
 import com.getcapacitor.PluginCall;
-import com.getcapacitor.community.admob.helpers.AdViewIdHelper;
-import com.getcapacitor.community.admob.helpers.RequestHelper;
-import com.getcapacitor.community.admob.models.AdMobPluginError;
-import com.getcapacitor.community.admob.models.AdOptions;
-import com.getcapacitor.community.admob.models.Executor;
+import com.getcapacitor.community.ironsource.helpers.AdViewIdHelper;
+import com.getcapacitor.community.ironsource.helpers.RequestHelper;
+import com.getcapacitor.community.ironsource.models.AdMobPluginError;
+import com.getcapacitor.community.ironsource.models.AdOptions;
+import com.getcapacitor.community.ironsource.models.Executor;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.common.util.BiConsumer;

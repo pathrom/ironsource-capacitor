@@ -1,6 +1,6 @@
 import {Component, OnInit, OnDestroy, NgZone} from '@angular/core';
 import { ViewDidEnter, ViewWillEnter, ViewWillLeave } from '@ionic/angular';
-import {AdMob, BannerAdPluginEvents} from '@capacitor-community/admob';
+import {AdMob, BannerAdPluginEvents} from '@capacitor-community/ironsource';
 import {bannerBottomOptions, bannerTopOptions} from '../../shared/ad.options';
 import {PluginListenerHandle} from '@capacitor/core';
 import {ITestItems} from '../../shared/interfaces';

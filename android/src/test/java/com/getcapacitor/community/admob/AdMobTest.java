@@ -1,4 +1,4 @@
-package com.getcapacitor.community.admob;
+package com.getcapacitor.community.ironsource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.reset;
@@ -10,7 +10,7 @@ import android.content.Context;
 import androidx.appcompat.app.AppCompatActivity;
 import com.getcapacitor.JSArray;
 import com.getcapacitor.PluginCall;
-import com.getcapacitor.community.admob.banner.BannerExecutor;
+import com.getcapacitor.community.ironsource.banner.BannerExecutor;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.RequestConfiguration;
 import org.json.JSONException;

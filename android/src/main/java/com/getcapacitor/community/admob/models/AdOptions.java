@@ -1,9 +1,9 @@
-package com.getcapacitor.community.admob.models;
+package com.getcapacitor.community.ironsource.models;
 
 import androidx.annotation.VisibleForTesting;
 import com.getcapacitor.PluginCall;
-import com.getcapacitor.community.admob.banner.BannerAdSizeEnum;
-import com.getcapacitor.community.admob.rewarded.models.SsvInfo;
+import com.getcapacitor.community.ironsource.banner.BannerAdSizeEnum;
+import com.getcapacitor.community.ironsource.rewarded.models.SsvInfo;
 
 /**
  * Holds the options for an Ad Request
@@ -14,7 +14,7 @@ public abstract class AdOptions {
     /**
      * The ad unit ID that you want to request
      *
-     * @see <a href="https://support.google.com/admob/answer/7356431?hl=en">Find ad Unit ID of an app</a>
+     * @see <a href="https://support.google.com/ironsource/answer/7356431?hl=en">Find ad Unit ID of an app</a>
      */
     public final String adId;
     /**
@@ -39,7 +39,7 @@ public abstract class AdOptions {
     /**
      * If set to true, an test app will be requested using the official sample ads unit ids
      *
-     * @see <a href="https://developers.google.com/admob/android/test-ads#sample_ad_units">Sample ad units</a>
+     * @see <a href="https://developers.google.com/ironsource/android/test-ads#sample_ad_units">Sample ad units</a>
      */
     public final boolean isTesting;
 
@@ -54,7 +54,7 @@ public abstract class AdOptions {
      * The default behavior of the Google Mobile Ads SDK is to serve personalized ads.
      * Set this to true to request Non-Personalized Ads
      *
-     * @see <a href="https://developers.google.com/admob/android/eu-consent">EU-Consent</a>
+     * @see <a href="https://developers.google.com/ironsource/android/eu-consent">EU-Consent</a>
      * <p>
      * Default is false
      */

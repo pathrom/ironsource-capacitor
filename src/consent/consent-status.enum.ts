@@ -1,6 +1,6 @@
 /**
  *  For more information:
- *  https://developers.google.com/admob/unity/reference/namespace/google-mobile-ads/ump/api#consentstatus
+ *  https://developers.google.com/ironsource/unity/reference/namespace/google-mobile-ads/ump/api#consentstatus
  *
  * */
 

@@ -1,4 +1,4 @@
-package com.getcapacitor.community.admob;
+package com.getcapacitor.community.ironsource;
 
 import android.Manifest;
 import com.getcapacitor.JSArray;
@@ -8,12 +8,12 @@ import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
 import com.getcapacitor.annotation.Permission;
-import com.getcapacitor.community.admob.banner.BannerExecutor;
-import com.getcapacitor.community.admob.consent.AdConsentExecutor;
-import com.getcapacitor.community.admob.helpers.AuthorizationStatusEnum;
-import com.getcapacitor.community.admob.interstitial.AdInterstitialExecutor;
-import com.getcapacitor.community.admob.interstitial.InterstitialAdCallbackAndListeners;
-import com.getcapacitor.community.admob.rewarded.AdRewardExecutor;
+import com.getcapacitor.community.ironsource.banner.BannerExecutor;
+import com.getcapacitor.community.ironsource.consent.AdConsentExecutor;
+import com.getcapacitor.community.ironsource.helpers.AuthorizationStatusEnum;
+import com.getcapacitor.community.ironsource.interstitial.AdInterstitialExecutor;
+import com.getcapacitor.community.ironsource.interstitial.InterstitialAdCallbackAndListeners;
+import com.getcapacitor.community.ironsource.rewarded.AdRewardExecutor;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.RequestConfiguration;
 import com.google.android.gms.ads.initialization.InitializationStatus;
@@ -170,8 +170,8 @@ public class AdMob extends Plugin {
     }
 
     /**
-     * @see <a href="https://developers.google.com/admob/android/test-ads#enable_test_devices">Test Devices</a>
-     * @see <a href="https://developers.google.com/admob/android/targeting">Target Settings</a>
+     * @see <a href="https://developers.google.com/ironsource/android/test-ads#enable_test_devices">Test Devices</a>
+     * @see <a href="https://developers.google.com/ironsource/android/targeting">Target Settings</a>
      */
     private void setRequestConfiguration(final PluginCall call) {
         // Testing Devices

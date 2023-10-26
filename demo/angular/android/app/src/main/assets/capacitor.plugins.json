@@ -1,6 +1,6 @@
 [
 	{
-		"pkg": "@capacitor-community/admob",
-		"classpath": "com.getcapacitor.community.admob.AdMob"
+		"pkg": "@capacitor-community/ironsource",
+		"classpath": "com.getcapacitor.community.ironsource.AdMob"
 	}
 ]

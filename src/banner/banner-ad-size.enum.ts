@@ -1,6 +1,6 @@
 /**
  *  For more information:
- *  https://developers.google.com/admob/ios/banner#banner_sizes
+ *  https://developers.google.com/ironsource/ios/banner#banner_sizes
  *  https://developers.google.com/android/reference/com/google/android/gms/ads/AdSize
  * 
  * */

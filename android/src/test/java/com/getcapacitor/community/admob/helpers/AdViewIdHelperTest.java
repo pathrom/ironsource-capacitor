@@ -1,4 +1,4 @@
-package com.getcapacitor.community.admob.helpers;
+package com.getcapacitor.community.ironsource.helpers;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
@@ -7,7 +7,7 @@ import static org.mockito.Mockito.when;
 
 import android.content.Context;
 import android.util.Log;
-import com.getcapacitor.community.admob.models.AdOptions;
+import com.getcapacitor.community.ironsource.models.AdOptions;
 import com.google.android.gms.ads.AdRequest;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

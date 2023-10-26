@@ -1,4 +1,4 @@
-package com.getcapacitor.community.admob.models;
+package com.getcapacitor.community.ironsource.models;
 
 import android.app.Activity;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.getcapacitor.community.admob.models
+package com.getcapacitor.community.ironsource.models
 
 import com.getcapacitor.JSObject
 import com.google.android.gms.ads.AdError

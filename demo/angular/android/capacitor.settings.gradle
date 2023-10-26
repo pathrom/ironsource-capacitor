@@ -2,5 +2,5 @@
 include ':capacitor-android'
 project(':capacitor-android').projectDir = new File('../node_modules/@capacitor/android/capacitor')
 
-include ':capacitor-community-admob'
-project(':capacitor-community-admob').projectDir = new File('../../../android')
+include ':capacitor-community-ironsource'
+project(':capacitor-community-ironsource').projectDir = new File('../../../android')

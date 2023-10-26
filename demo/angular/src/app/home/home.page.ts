@@ -15,7 +15,7 @@ import {
   AdmobConsentInfo,
   AdmobConsentStatus,
   AdmobConsentDebugGeography,
-} from '@capacitor-community/admob';
+} from '@capacitor-community/ironsource';
 import { ReplaySubject } from 'rxjs';
 import {
   bannerTopOptions,

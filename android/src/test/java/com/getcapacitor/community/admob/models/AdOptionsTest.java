@@ -1,4 +1,4 @@
-package com.getcapacitor.community.admob.models;
+package com.getcapacitor.community.ironsource.models;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.anyBoolean;
@@ -13,7 +13,7 @@ import static org.mockito.Mockito.when;
 
 import com.getcapacitor.JSObject;
 import com.getcapacitor.PluginCall;
-import com.getcapacitor.community.admob.rewarded.models.SsvInfo;
+import com.getcapacitor.community.ironsource.rewarded.models.SsvInfo;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;

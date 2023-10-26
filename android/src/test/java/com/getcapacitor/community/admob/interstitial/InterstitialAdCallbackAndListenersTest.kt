@@ -1,4 +1,4 @@
-package com.getcapacitor.community.admob.interstitial
+package com.getcapacitor.community.ironsource.interstitial
 
 import android.app.Activity
 import android.content.Context

@@ -11,7 +11,7 @@ export interface RewardAdOptions extends AdOptions {
    * 
    * *Important* You *HAVE* to define one of them.
    * 
-   * @see https://support.google.com/admob/answer/9603226?hl=en-GB
+   * @see https://support.google.com/ironsource/answer/9603226?hl=en-GB
    */
   ssv?: AtLeastOne<{
     /**

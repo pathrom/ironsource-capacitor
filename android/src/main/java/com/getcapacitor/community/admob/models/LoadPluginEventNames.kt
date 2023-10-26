@@ -1,4 +1,4 @@
-package com.getcapacitor.community.admob.models
+package com.getcapacitor.community.ironsource.models
 
 interface LoadPluginEventNames {
     val Showed: String

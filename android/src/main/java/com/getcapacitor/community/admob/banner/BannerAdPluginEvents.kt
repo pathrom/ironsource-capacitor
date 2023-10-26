@@ -1,4 +1,4 @@
-package com.getcapacitor.community.admob.banner
+package com.getcapacitor.community.ironsource.banner
 
 enum class BannerAdPluginEvents(val webEventName: String) {
     SizeChanged("bannerAdSizeChanged"),

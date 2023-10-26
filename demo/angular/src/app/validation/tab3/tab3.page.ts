@@ -1,5 +1,5 @@
 import { Component, NgZone } from '@angular/core';
-import { AdMob, RewardAdPluginEvents } from '@capacitor-community/admob';
+import { AdMob, RewardAdPluginEvents } from '@capacitor-community/ironsource';
 import { ITestItems } from '../../shared/interfaces';
 import { ViewDidEnter, ViewWillEnter, ViewWillLeave } from '@ionic/angular';
 import { PluginListenerHandle } from '@capacitor/core';
